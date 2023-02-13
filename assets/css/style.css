@@ -120,3 +120,20 @@ nav ul li {
     font-weight: 300;
     text-align: center;
 }
+
+/*========= creativity banner section  =========*/
+.creativity {
+    background-image: url(/assets/image/creativity\ banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+.creativity .btn_primary {
+    background-color: #0149a1;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
