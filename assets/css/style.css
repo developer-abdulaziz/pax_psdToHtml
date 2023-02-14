@@ -100,7 +100,7 @@ nav ul li {
 
 /*========= service section  =========*/
 
-.service {
+.service, .teamItem {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -108,13 +108,13 @@ nav ul li {
     gap: 16px;
     text-align: center;
 }
-.service h3 {
+.service h3, .teamItem h3 {
     font-size: 30px;
     color: #5d6981;
     font-weight: 700;
     text-align: center;
 }
-.service p {
+.service p, .teamItem p {
     font-size: 18px;
     color: #7c8ca0;
     font-weight: 300;
@@ -143,8 +143,9 @@ nav ul li {
 .weWork {
     background: var(--mainColor);
     padding: 120px 0px;
+    /* margin-bottom: 60px; */
 }
-.weWork .container {
+.weWork .container, .teamContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -163,6 +164,9 @@ nav ul li {
     font-size: 18px;
     color: #ffffff;
     font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 .weWork .btn_primary {
   display: flex;
@@ -170,4 +174,44 @@ nav ul li {
   justify-content: center;
    background-color: #ffffff;
    color: var(--mainColor);
+}
+
+
+/*========= review section  =========*/
+.carousel-item {
+    padding: 150px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+.carousel-item img {
+    max-width: 10%;
+}
+.carousel-caption q {
+    font-size: 24px;
+    line-height: 30px;
+    color: #7c8ca0;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+}
+.carousel-caption p {
+    font-size: 18px;
+    color: #7c8ca0;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+/*========= team section  =========*/
+.teamSection{
+    background: #edeff1;
+    padding: 100px 0px;
+}
+
+
+/*========= footer section  =========*/
+footer {
+    background: var(--mainColor);
 }
