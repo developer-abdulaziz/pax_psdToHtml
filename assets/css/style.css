@@ -214,4 +214,12 @@ nav ul li {
 /*========= footer section  =========*/
 footer {
     background: var(--mainColor);
+    padding: 100px 0px;
+}
+.f-item ul li {
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+footer p {
+    color: #ffffff;
 }
